@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B99E51E95AB3400590A00FCD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 639ADDEE32AE4AFEA8489565 /* libPods.a */; };
+		B99E51E95AB3400590A00FCD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 639ADDEE32AE4AFEA8489565 /* libPods.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		F8429A1D14E1E45F00763DC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8429A1C14E1E45F00763DC7 /* UIKit.framework */; };
 		F8429A1F14E1E45F00763DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8429A1E14E1E45F00763DC7 /* Foundation.framework */; };
 		F8429A2114E1E45F00763DC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8429A2014E1E45F00763DC7 /* CoreGraphics.framework */; };
@@ -305,7 +305,9 @@
 				GCC_PREFIX_HEADER = "GeoPhoto/GeoPhoto-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "GeoPhoto/GeoPhoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -320,7 +322,9 @@
 				GCC_PREFIX_HEADER = "GeoPhoto/GeoPhoto-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "GeoPhoto/GeoPhoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
